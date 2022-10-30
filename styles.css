@@ -1,0 +1,56 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 50vh auto;
+    transform: translateY(-50%);
+    width: 602px;
+    height: 449px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+.product-picture {
+    width: 301px;
+    height: 449px;
+    border-radius: 5px 0 0 5px;
+}
+
+.infos-section {
+    margin: 25px;
+}
+
+.perfume {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 11px;
+    color: grey;
+    margin-bottom: 0;
+}
+
+.perfume-name {
+    font-family: 'Fraunces';
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 2px;
+    width: 100%;
+    font-size: 13px;
+}
