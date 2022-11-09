@@ -135,7 +135,7 @@ footer {
     border: none;
     border-radius: 5px;
     font-family: "Montserrat", Arial, Calibri, serif;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
     display: flex;
     justify-content: center;
@@ -143,6 +143,10 @@ footer {
     font-size: 13px;
     width: 300px;
     height: 45px;
+}
+
+.add-to-cart:hover {
+    background-color: #1a4031;
 }
 
 .icon-cart {
